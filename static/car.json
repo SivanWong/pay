@@ -1,0 +1,50 @@
+{
+    "select":[
+        {
+          "key": "wechat",
+          "label": "微信支付",
+          "comment": "推荐安装微信5.0及以上版本用户使用银行",
+          "checked": false
+        },
+        {
+          "key": "alipay",
+          "label": "支付宝",
+          "comment": "推荐有支付宝账号的用户使用",
+          "checked": false
+        },
+        {
+          "key": "pufa",
+          "label": "浦发银行",
+          "comment": "推荐有浦发银行账号的用户使用",
+          "checked": false
+        },
+        {
+          "key": "yunda",
+          "label": "运达一卡通",
+          "comment": "仅供运达一卡通的用户使用",
+          "checked": false
+        },
+        {
+          "key": "card",
+          "label": "银行卡支付",
+          "comment": "推荐有我家云钱包账号的用户使用",
+          "checked": false
+        }
+      ],
+      "car":[
+          {
+            "number": "粤B12344",
+            "paid": "未缴费",
+            "enterTime": "2018-03-10 12:10",
+            "leaveTime": "2018-03-14 11:20",
+            "money": "40.00"
+          },
+          {
+            "number": "粤B12345",
+            "paid": "已缴费",
+            "enterTime": "2018-03-11 12:10",
+            "leaveTime": "2018-03-14 11:20",
+            "money": "30.00"
+          }
+      ]
+}
