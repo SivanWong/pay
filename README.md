@@ -1,30 +1,26 @@
-# pay
+## 使用
+1. 从github中下载
+2. npm install安装依赖
+3. npm run dev运行
+4. 入口文件index有两个不同车牌的入口
+5. 点击 相应车牌 跳转到 对应的缴费页面
 
-> A Vue.js project
+## 已完成功能
+- 根据ui转换为静态页面
+- 根据id模拟请求，向本地json数据请求相应的数据，并展现出来
+- 适配移动端
+- 利用vue实现数据双向绑定
+- 选择支付宝支付提示“无法支付”
+- 选择微信支付提示“支付成功”
+- 根据渲染前请求得到的数据中的未缴费或已缴费来判断并决定选择列表与支付按钮是否显示
 
-## Build Setup
+## 机试题完成日志
+### 5.14
+- 构建vue-cli脚手架
+- 适配移动端
+- 完成静态页面中的选择列表和支付按钮
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+### 5.15
+- 完成静态页面的其余部分
+- 配置本地json数据，模拟http请求
+- 上传到github仓库中，并完成readme
